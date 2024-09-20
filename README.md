@@ -157,63 +157,67 @@ prefix: `>`
    ```   
 </details>
 
+<details>
+  <summary><h2><b> How TAGS work in TSK? 👀</b></h2></summary>
 
-## How TAGS work in TSK? 👀
+  TAGS is a form of classify a task, for example, create a task just for work or school and create tasks to set there.
+  
+  In Practice:
+  
+  1. Create a tag
+     
+  ```
+  > tsk tagdo
+  
+  ~ tag_name: For study
+  
+  Nice! Tag created.
+  ```
+  
+  2. Create a task (Simple task or Bigger Task)
+     
+  ```
+  > tsk simp
+  
+  you want set a ID to task?
+  [Y]es or [N]o : y
+  
+  ~ ID: 202F
+  
+  ~ task_name: Go learn Kotlin
+  
+  you want set "Go learn Java" as your favourite?
+  [Y]es or [N]o : n
+  
+  Ok! Your task was created.
+  ```
+  
+  3. Set a task in a tag 'For study'
+     
+  ```
+  > tsk tagset
+  
+  ~ tag_name: For study
+  ~ ID_task or task_name: Go learn Kotlin or 202F
+  
+  Okay! Now, 'Go learn Kotlin' > 'For study' tag.
+  ```
+  
+  This way, I have a specific task for the study.
+  
 
-TAGS is a form of classify a task, for example, create a task just for work or school and create tasks to set there.
-
-In Practice:
-
-1. Create a tag
-   
-```
-> tsk tagdo
-
-~ tag_name: For study
-
-Nice! Tag created.
-```
-
-2. Create a task (Simple task or Bigger Task)
-   
-```
-> tsk simp
-
-you want set a ID to task?
-[Y]es or [N]o : y
-
-~ ID: 202F
-
-~ task_name: Go learn Kotlin
-
-you want set "Go learn Java" as your favourite?
-[Y]es or [N]o : n
-
-Ok! Your task was created.
-```
-
-3. Set a task in a tag 'For study'
-   
-```
-> tsk tagset
-
-~ tag_name: For study
-~ ID_task or task_name: Go learn Kotlin or 202F
-
-Okay! Now, 'Go learn Kotlin' > 'For study' tag.
-```
-
-This way, I have a specific task for the study.
+</details>
 
 
-
-## Use Todo Terminal ( ﾉ ﾟｰﾟ)ﾉ
-
-I know that you not go use this program to organize your tasks, I think, but, If you want, Do it below.
-
-Copy and Paste this in your `Terminal`:
-```
-cd ~/Documents; git clone https://github.com/G4brielXavier/TodoTerminal.git
-```
-
-NOW ENJOY! I Think, UwU
+<details>
+  <summary><h2><b> Use Todo Terminal ( ﾉ ﾟｰﾟ)ﾉ <b></h2></summary>
+  <br>
+  <p>I know that you not go use this program to organize your tasks, I think, but, If you want, Do it below.</p>
+  <br>
+  Copy and Paste this in your `Terminal`:
+  ```
+  cd ~/Documents; git clone https://github.com/G4brielXavier/TodoTerminal.git
+  ```
+  
+  NOW ENJOY! I Think, UwU
+</details>
