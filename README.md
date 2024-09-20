@@ -1,6 +1,6 @@
 # TSK DOC
 
-This is a CLI to manage and create your tasks.
+This is a TodoApp or TodoSystem, in Terminal Format, create and manage your day with TodoTerminal, sure, if you have courage.
 
 prefix: `>`
 
