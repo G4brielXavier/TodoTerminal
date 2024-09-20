@@ -210,16 +210,34 @@ prefix: `>`
 
 
 <details>
-  <summary><h2><b> Use Todo Terminal ( ﾉ ﾟｰﾟ)ﾉ <b></h2></summary>
+  <summary><h2><b> Contribute to Todo Terminal ( ﾉ ﾟｰﾟ)ﾉ <b></h2></summary>
   <br>
   <p>I know that you not go use this program to organize your tasks, I think, but, If you want, Do it below.</p>
 
-  Copy and Paste this in your `Terminal`:
+  ### How to Contribute?
+  1. Click in button "Fork" in right upper corner
+  2. Clone your Fork
   ```
-  cd .\Documents\; git clone https://github.com/G4brielXavier/TodoTerminal.git
+    git clone https://github/G4brielXavier/TodoTerminal.git  
   ```
 
-  
-  
-  NOW ENJOY! I Think, UwU
+  3. Create a branch
+  ```
+    git checkout -b new-todo_terminal
+  ```
+
+  4. Do your changes and test
+  5. Add and do commit of your changes
+  ```
+    git add .
+    git commit -m "TodoTerminal-new_features"
+  ```
+
+  6. Send to your fork
+  ```
+    git push origin new-todo_terminal
+  ```
+
+  7. Create a pull-request
+    Click in "Compare & Pull Request"
 </details>
