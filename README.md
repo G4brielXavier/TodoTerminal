@@ -7,7 +7,7 @@ prefix: `>`
 <img src="./img/img_1.png"></img>
 
 <details>
-  <summary><h2><b> Quick Task? 🤔 </b></h2></summary>
+  <summary><h3><b> Quick Task? 🤔 </b></h3></summary>
    
    ```
    > qk
@@ -34,7 +34,7 @@ prefix: `>`
 </details>
 
 <details>
-   <summary><h2><b> How create your first simple task? 🥸</b></h2></summary>
+   <summary><h3><b> How create your first simple task? 🥸</b></h3></summary>
    
    ```
    > tsk simp
@@ -67,7 +67,7 @@ prefix: `>`
 </details>
 
 <details>
-   <summary><h2><b> How Create a bigger task? 🗿🍷</b></h2></summary>
+   <summary><h3><b> How Create a bigger task? 🗿🍷</b></h3></summary>
    
    ```
    > tsk bigg
@@ -112,7 +112,7 @@ prefix: `>`
 </details>
 
 <details>
-   <summary><h2><b> How to view all my tasks? 😶‍🌫️</b></h2></summary>
+   <summary><h3><b> How to view all my tasks? 😶‍🌫️</b></h3></summary>
 
    ```
    > tsk vall
@@ -139,7 +139,7 @@ prefix: `>`
 </details>
 
 <details>
-   <summary><h2><b> How to view task in a simple format? 🍷 </b></h2></summary>
+   <summary><h3><b> How to view task in a simple format? 🍷 </b></h3></summary>
 
    ### - Using `tsk mv` command:
 
@@ -158,7 +158,7 @@ prefix: `>`
 </details>
 
 <details>
-  <summary><h2><b> How TAGS work in TSK? 👀</b></h2></summary>
+  <summary><h3><b> How TAGS work in TSK? 👀</b></h3></summary>
 
   TAGS is a form of classify a task, for example, create a task just for work or school and create tasks to set there.
   
