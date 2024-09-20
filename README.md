@@ -221,11 +221,11 @@ prefix: `>`
 
   2. Clone your fork to your local machine.
 
-  3. Create a new branch (git checkout -b feature/your-feature).
+  3. Create a new branch (`git checkout -b feature/your-feature`).
 
-  4. Add your changes and commit them (git commit -am 'Add new feature').
+  4. Add your changes and commit them (`git commit -am 'Add new feature`).
 
-  5. Push the branch to the remote repository (git push origin feature/your-feature).
+  5. Push the branch to the remote repository (`git push origin feature/your-feature`).
 
   6. Open a Pull Request to the main branch.
 
