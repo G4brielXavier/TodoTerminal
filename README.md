@@ -215,29 +215,18 @@ prefix: `>`
   <p>I know that you not go use this program to organize your tasks, I think, but, If you want, Do it below.</p>
 
   ### How to Contribute?
-  1. Click in button "Fork" in right upper corner
-  2. Clone your Fork
-  ```
-    git clone https://github/G4brielXavier/TodoTerminal.git  
-  ```
 
-  3. Create a branch
-  ```
-    git checkout -b new-todo_terminal
-  ```
 
-  4. Do your changes and test
-  5. Add and do commit of your changes
-  ```
-    git add .
-    git commit -m "TodoTerminal-new_features"
-  ```
+  1. Fork the repository.
 
-  6. Send to your fork
-  ```
-    git push origin new-todo_terminal
-  ```
+  2. Clone your fork to your local machine.
 
-  7. Create a pull-request
-    Click in "Compare & Pull Request"
+  3. Create a new branch (git checkout -b feature/your-feature).
+
+  4. Add your changes and commit them (git commit -am 'Add new feature').
+
+  5. Push the branch to the remote repository (git push origin feature/your-feature).
+
+  6. Open a Pull Request to the main branch.
+
 </details>
