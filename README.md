@@ -1,4 +1,4 @@
-# TSK DOC
+# TSK DOC BETA
 
 This is a TodoApp or TodoSystem, in Terminal Format, create and manage your day with TodoTerminal, sure, if you have courage.
 
@@ -213,7 +213,7 @@ prefix: `>`
   <summary><h2><b> Use Todo Terminal ( ﾉ ﾟｰﾟ)ﾉ <b></h2></summary>
   <br>
   <p>I know that you not go use this program to organize your tasks, I think, but, If you want, Do it below.</p>
-  <br>
+
   Copy and Paste this in your `Terminal`:
   ```
   cd ~/Documents; git clone https://github.com/G4brielXavier/TodoTerminal.git
