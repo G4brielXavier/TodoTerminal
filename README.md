@@ -216,8 +216,10 @@ prefix: `>`
 
   Copy and Paste this in your `Terminal`:
   ```
-  cd ~/Documents; git clone https://github.com/G4brielXavier/TodoTerminal.git
+  cd 'C:\Program Files\'; git clone https://github.com/G4brielXavier/TodoTerminal.git
   ```
+
+  
   
   NOW ENJOY! I Think, UwU
 </details>
