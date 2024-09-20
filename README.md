@@ -96,7 +96,7 @@ Success! Very detailed task.
 
 ```
 
-`is_your_favorite` if you type `Y`, a task created will be your favourite.
+`is_your_favorite` if you type `Y`, a task created will be your favourite. <br>
 `set_ID?` if you type `Y`, you will be able to create a ID to your task.
 
 
@@ -117,10 +117,10 @@ Success! Very detailed task.
 
 ```
 
-`Tag`: show that type of task is it, to job', 'to school'.
-`ID`: if you setted a ID, it appear here.
-`task_name`: name of your task.
-`content`: contents of your task.
+`Tag`: show that type of task is it, to job', 'to school'. <br>
+`ID`: if you setted a ID, it appear here. <br>
+`task_name`: name of your task. <br>
+`content`: contents of your task. <br>
 `is_favourite?`: if your task is favourite or not.
 
 
@@ -147,6 +147,7 @@ TAGS is a form of classify a task, for example, create a task just for work or s
 In Practice:
 
 1. Create a tag
+   
 ```
 > tsk tagdo
 
@@ -156,6 +157,7 @@ Nice! Tag created.
 ```
 
 2. Create a task (Simple task or Bigger Task)
+   
 ```
 > tsk simp
 
@@ -173,6 +175,7 @@ Ok! Your task was created.
 ```
 
 3. Set a task in a tag 'For study'
+   
 ```
 > tsk tagset
 
@@ -183,6 +186,7 @@ Okay! Now, 'Go learn Kotlin' > 'For study' tag.
 ```
 
 This way, I have a specific task for the study.
+
 
 
 ## Use Todo Terminal ( ﾉ ﾟｰﾟ)ﾉ
