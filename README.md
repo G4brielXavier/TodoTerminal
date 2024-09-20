@@ -6,141 +6,157 @@ prefix: `>`
 
 <img src="./img/img_1.png"></img>
 
-## Quick Task? 🤔
+<details>
+  <summary><h2><b> Quick Task? 🤔 </b></h2></summary>
+   
+   ```
+   > qk
+   
+   ~ task_name: Do my homework
+   
+   WoW! be quick.
+   ```
+   
+   `tsk vall` of a quick task.
+   
+   ```
+   > tsk vall
+   
+   | !Type: Quick Task
+   | ID: 0
+   | ...
+   | ~ task_name: Do my homework
+   | ...
+   | ~ is_favourite?: False
+   
+   ```
 
-```
-> qk
+</details>
 
-~ task_name: Do my homework
+<details>
+   <summary><h2><b> How create your first simple task? 🥸</b></h2></summary>
+   
+   ```
+   > tsk simp
+   
+   you want set a ID to task?
+   [Y]es or [N]o : n
+   
+   ~ task_name: Go learn Java
+   
+   you want set "Go learn Java" as your favourite?
+   [Y]es or [N]o : n
+   
+   Ok! Your task was created.
+   ```
+   
+   `tsk vall` to view task.
+   
+   ```
+   > tsk vall
+   
+   | !Type: Simple Task
+   | ID: 0
+   | ~ Tag ...
+   | ~ task_name: Go learn Java
+   | ~ content ...
+   | ~ is_favourite?: False
+   
+   ```
+      
+</details>
 
-WoW! be quick.
-```
+<details>
+   <summary><h2><b> How Create a bigger task? 🗿🍷</b></h2></summary>
+   
+   ```
+   > tsk bigg
+   
+   you want set a ID to task?
+   [Y]es or [N]o : y
+   
+   ~ ID: 20F2
+   
+   ~ task_name: Go learn Java
+   
+   ~ content: Try learn Java language.
+   
+   you want set "Go learn Java" as your favourite?
+   [Y]es or [N]o : n
+   
+   
+   Success! Very detailed task.
+   ```
+   
+   `tsk vall` of a bigger task.
+   
+   ```
+   > tsk vall
+   
+   | !Type: Bigger Task
+   | ID: 20F2
+   | ~ Tag ...
+   | ~ task_name: Go learn Java
+   
+   | ~ content:
+   |      Try learn Java language.
+   
+   | ~ is_favourite?: False
+   
+   ```
+   
+   `is_your_favorite` if you type `Y`, a task created will be your favourite. <br>
+   `set_ID?` if you type `Y`, you will be able to create a ID to your task.
 
-`tsk vall` of a quick task.
+   
+</details>
 
-```
-> tsk vall
+<details>
+   <summary><h2><b> How to view all my tasks? 😶‍🌫️</b></h2></summary>
 
-| !Type: Quick Task
-| ID: 0
-| ...
-| ~ task_name: Do my homework
-| ...
-| ~ is_favourite?: False
+   ```
+   > tsk vall
+   
+   | !Type: Bigger Task
+   | ID: 20F2
+   | ~ Tag ...
+   | ~ task_name: Go learn Java
+   
+   | ~ content:
+   |      Try learn Java language.
+   
+   | ~ is_favourite?: False
+   
+   ```
+   
+   `Tag`: show that type of task is it, to job', 'to school'. <br>
+   `ID`: if you setted a ID, it appear here. <br>
+   `task_name`: name of your task. <br>
+   `content`: contents of your task. <br>
+   `is_favourite?`: if your task is favourite or not.
+   
+      
+</details>
 
-```
+<details>
+   <summary><h2><b> How to view task in a simple format? 🍷 </b></h2></summary>
 
-## How create your first simple task? 🥸
+   ### - Using `tsk mv` command:
 
-```
-> tsk simp
+   ```
+   > qk
+   
+   ~ task_name: Go to work
+   
+   Nice! be quick.
+   
+   > tsk mv
+   
+   | !Type: Quick Task  | ID: ...  | ~ task_name: Go to work  
+   
+   ```   
+</details>
 
-you want set a ID to task?
-[Y]es or [N]o : n
-
-~ task_name: Go learn Java
-
-you want set "Go learn Java" as your favourite?
-[Y]es or [N]o : n
-
-Ok! Your task was created.
-```
-
-`tsk vall` of a simple task.
-
-```
-> tsk vall
-
-| !Type: Simple Task
-| ID: 0
-| ~ Tag ...
-| ~ task_name: Go learn Java
-| ~ content ...
-| ~ is_favourite?: False
-
-```
-
-## How Create a bigger task? 🗿🍷
-
-```
-> tsk bigg
-
-you want set a ID to task?
-[Y]es or [N]o : y
-
-~ ID: 20F2
-
-~ task_name: Go learn Java
-
-~ content: Try learn Java language.
-
-you want set "Go learn Java" as your favourite?
-[Y]es or [N]o : n
-
-
-Success! Very detailed task.
-```
-
-`tsk vall` of a bigger task.
-
-```
-> tsk vall
-
-| !Type: Bigger Task
-| ID: 20F2
-| ~ Tag ...
-| ~ task_name: Go learn Java
-
-| ~ content:
-|      Try learn Java language.
-
-| ~ is_favourite?: False
-
-```
-
-`is_your_favorite` if you type `Y`, a task created will be your favourite. <br>
-`set_ID?` if you type `Y`, you will be able to create a ID to your task.
-
-
-## How to view all my tasks? 😶‍🌫️
-
-```
-> tsk vall
-
-| !Type: Bigger Task
-| ID: 20F2
-| ~ Tag ...
-| ~ task_name: Go learn Java
-
-| ~ content:
-|      Try learn Java language.
-
-| ~ is_favourite?: False
-
-```
-
-`Tag`: show that type of task is it, to job', 'to school'. <br>
-`ID`: if you setted a ID, it appear here. <br>
-`task_name`: name of your task. <br>
-`content`: contents of your task. <br>
-`is_favourite?`: if your task is favourite or not.
-
-
-## How to view task in a simple format?
-### - Using `tsk mv` command:
-
-```
-> qk
-
-~ task_name: Go to work
-
-Nice! be quick.
-
-> tsk mv
-
-| !Type: Quick Task  | ID: ...  | ~ task_name: Go to work  
-
-```
 
 ## How TAGS work in TSK? 👀
 
