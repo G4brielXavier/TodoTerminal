@@ -4,6 +4,8 @@ This is a CLI to manage and create your tasks.
 
 prefix: `>`
 
+<img src="./img/img_1.png"></img>
+
 ## Quick Task? 🤔
 
 ```
