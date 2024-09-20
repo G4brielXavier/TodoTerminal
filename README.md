@@ -216,7 +216,7 @@ prefix: `>`
 
   Copy and Paste this in your `Terminal`:
   ```
-  cd 'C:\Program Files\'; git clone https://github.com/G4brielXavier/TodoTerminal.git
+  cd .\Documents\; git clone https://github.com/G4brielXavier/TodoTerminal.git
   ```
 
   
