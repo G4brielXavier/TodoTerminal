@@ -223,7 +223,7 @@ prefix: `>`
 
   3. Create a new branch (`git checkout -b feature/your-feature`).
 
-  4. Add your changes and commit them (`git commit -am 'Add new feature`).
+  4. Add your changes and commit them (`git commit -m 'Add new feature'`).
 
   5. Push the branch to the remote repository (`git push origin feature/your-feature`).
 
